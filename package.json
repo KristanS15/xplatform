@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "scripts": {
+        "web": "cd packages/web && yarn start",
+        "mobile": "cd packages/app && yarn start",
+        "desktop": "cd packages/desktop && yarn dev",
+        "start": "concurrently --kill-others \"cd packages/web && yarn start\" \"cd packages/app && yarn start\" \"cd packages/desktop && yarn dev\""
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "concurrently": "^4.0.1"
+    }
+}
