@@ -1,5 +1,5 @@
 {
-  "name": "empty-project-template",
+  "name": "@xplatform/app",
   "main": "./node_modules/expo/AppEntry.js",
   "version": "1.0.0",
   "private": true,
@@ -11,7 +11,7 @@
     "prestart": "node link-workspaces.js"
   },
   "dependencies": {
-    "@peanut/common": "1.0.0",
+    "@xplatform/common": "1.0.0",
     "expo": "^31.0.2",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { add } from "@peanut/common";
+import { add } from "@xplatform/common";
 
 import { StyleSheet, Text, View } from 'react-native';
 

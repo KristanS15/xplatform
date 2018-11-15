@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { add } from "@peanut/common";
+import { add } from "@xplatform/common";
 
 import logo from './logo.svg';
 import './App.css';

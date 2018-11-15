@@ -1,11 +1,11 @@
 {
-  "name": "electron-blank",
+  "name": "@xplatform/desktop",
   "version": "0.1.0",
   "private": true,
   "main": "electron-starter.js",
   "homepage": "./",
   "dependencies": {
-    "@peanut/common": "1.0.0",
+    "@xplatform/common": "1.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },

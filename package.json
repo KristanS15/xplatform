@@ -1,4 +1,5 @@
 {
+    "name": "xplatform",
     "private": true,
     "scripts": {
         "web": "cd packages/web && yarn start",
