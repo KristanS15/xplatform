@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { add } from "@xplatform/common";
 
-import logo from './logo.svg';
-import './App.css';
+// XPlatform
+import { add } from "@xplatform/common/index";
+import logo from '@xplatform/common/logo.svg';
+import "@xplatform/common/App.css";
 
 class App extends Component {
   render() {
